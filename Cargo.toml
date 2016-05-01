@@ -1,0 +1,18 @@
+[package]
+authors = ["Erik Johnston"]
+name = "fedtestbot"
+version = "0.1.0"
+
+[dependencies]
+chrono = "0.2.21"
+clap = "2.3.0"
+hyper = "0.8.1"
+rustc-serialize = "0.3.19"
+serde = "0.7.0"
+serde_json = "0.7.0"
+serde_macros = "0.7.2"
+toml = "0.1.28"
+
+[dependencies.mxfedtest]
+git = "https://github.com/erikjohnston/mxfedtest.git"
+optional = false
